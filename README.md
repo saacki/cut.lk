@@ -26,8 +26,6 @@ The primary goal of this project is to provide a robust and scalable solution fo
 
 ### Getting Started
 
-To get started with the URL Shortener, follow these steps:
-
-1. **Clone the Repository**: 
+**Clone the Repository**: 
    ```bash
    git clone https://github.com/saacki/cut.lk.git
