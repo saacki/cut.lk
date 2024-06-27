@@ -1,4 +1,4 @@
-# About This Project
+# cut.lk
 
 Welcome to the URL Shortener project! This repository contains the code for a URL shortening service that allows users to create shortened URLs that redirect to longer, original URLs. This service is designed to be simple, efficient, and secure, ensuring that your long URLs are easily shareable and manageable.
 
@@ -24,7 +24,7 @@ The primary goal of this project is to provide a robust and scalable solution fo
 2. **Generate Short Code**: The service generates a unique short code for the URL.
 3. **Store and Redirect**: The original URL and short code are stored in the database. When the short URL is accessed, the service redirects to the original URL.
 
-## Getting Started
+### Getting Started
 
 To get started with the URL Shortener, follow these steps:
 
