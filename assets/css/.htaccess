@@ -1,0 +1,9 @@
+Options -Indexes
+<Files ".htaccess">
+order allow,deny
+deny from all
+</Files>
+<Files "uncompressed_style.css">
+order allow,deny
+deny from all
+</Files>
