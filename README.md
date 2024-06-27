@@ -24,7 +24,6 @@ The primary goal of this project is to provide a robust and scalable solution fo
 2. **Generate Short Code**: The service generates a unique short code for the URL.
 3. **Store and Redirect**: The original URL and short code are stored in the database. When the short URL is accessed, the service redirects to the original URL.
 
-### Getting Started
 
 **Clone the Repository**: 
    ```bash
