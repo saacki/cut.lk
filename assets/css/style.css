@@ -37,7 +37,7 @@ body, html {
     position: relative;
 }
 
-.on-side {
+#on-side {
     transform: rotate(270deg);
     transform-origin: center center;
     font-size: 14px;
@@ -54,7 +54,16 @@ body, html {
     -ms-user-select: none;
 }
 
-.imgLK {
+#links {
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    color: #8E94F2;
+}
+
+#imgLK {
     font-size: 25px;
     color: #8E94F2;
     text-decoration: none;
@@ -132,7 +141,8 @@ img {
 #footer {
     text-align: center;
     font-size: 24px;
-    margin-top: 2px;
+    position: absolute;
+    bottom: 0px;
     color: #8E94F2;
     -webkit-touch-callout: none;
     -webkit-user-select: none;
@@ -144,7 +154,7 @@ img {
 /* Ensure the form looks good on all screen sizes */
 @media (min-width: 768px) {
     .container {
-        width: 70%;
+        width: 100%;
     }
 }
 
