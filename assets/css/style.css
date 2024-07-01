@@ -8,7 +8,7 @@ body, html {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #191919;
+    background-color: #533A71;
     font-family: 'Linotte', sans-serif;
     -webkit-font-smoothing: antialiased;
 }
@@ -60,12 +60,12 @@ body, html {
     -khtml-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
-    color: #8E94F2;
+    color: #fff;
 }
 
 #imgLK {
     font-size: 25px;
-    color: #8E94F2;
+    color: #fff;
     text-decoration: none;
     margin-bottom: 10px;
     -webkit-touch-callout: none;
@@ -86,7 +86,7 @@ input[type="text"] {
     box-sizing: border-box;
 }
 
-button {
+.bluebutton {
     width: 100%;
     padding: 15px;
     background-color: #007BFF;
@@ -103,7 +103,7 @@ button {
     box-sizing: border-box;
 }
 
-button:hover {
+.bluebutton:hover {
     background-color: #0056b3;
 }
 
@@ -149,6 +149,49 @@ img {
     -khtml-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
+}
+
+.Btn {
+  width: 100px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  border: none;
+  border-radius: 4px;
+  overflow: hidden;
+  /*box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.164);*/
+  cursor: pointer;
+  margin: auto;
+  padding: inherit;
+}
+
+.text {
+  width: 65%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: rgb(2, 153, 153);
+}
+
+.svgIcon {
+  width: 35%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: teal;
+}
+
+.Btn:hover .text {
+  background-color: rgb(0, 133, 133);
+}
+
+.Btn:hover .svgIcon {
+  background-color: rgb(0, 105, 105);
 }
 
 /* Ensure the form looks good on all screen sizes */
