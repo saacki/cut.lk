@@ -53,7 +53,7 @@ if ($request_uri && $_SERVER['REQUEST_METHOD'] != 'POST') {
     <meta property="og:description" content="URL Shortener">
     <meta property="og:url" content="https://cut.lk">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cut.lk/assets/css/style.css?v=0.0.9bm">
+    <link rel="stylesheet" href="https://cut.lk/assets/css/style.css?v=0.1.0a">
 </head>
 <body>
 	<a href="https://cut.lk" id="imgLK"><img src="https://cut.lk/assets/img/scissor.png?v=1b"><strong> dot L K</strong></a>
