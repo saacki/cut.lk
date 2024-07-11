@@ -41,12 +41,13 @@ if ($request_uri && $_SERVER['REQUEST_METHOD'] != 'POST') {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>URL Shortener</title>
-    <link rel="apple-touch-icon" sizes="180x180" href="https://sachi.lk/assets/img/fav/apple-touch-icon.png?v=2">
-    <link rel="icon" type="image/png" sizes="32x32" href="https://sachi.lk/assets/img/fav/favicon-32x32.png?v=2">
-    <link rel="icon" type="image/png" sizes="192x192" href="https://sachi.lk/assets/img/fav/android-chrome-192x192.png?v=2">
-    <link rel="icon" type="image/png" sizes="16x16" href="https://sachi.lk/assets/img/fav/favicon-16x16.png?v=2">
-    <link rel="mask-icon" href="https://sachi.lk/assets/img/fav/safari-pinned-tab.svg?v=2" color="#8E94F2">
-    <link rel="shortcut icon" href="https://sachi.lk/assets/img/fav/favicon.ico?v=2">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://cut.lk/assets/img/fav/apple-touch-icon.png?v=2a">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://cut.lk/assets/img/fav/favicon-32x32.png?v=2a">
+    <link rel="icon" type="image/png" sizes="192x192" href="https://cut.lk/assets/img/fav/android-chrome-192x192.png?v=2a">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://cut.lk/assets/img/fav/favicon-16x16.png?v=2a">
+    <link rel="manifest" href="https://cut.lk/assets/img/fav/site.webmanifest?v=2a">
+    <link rel="mask-icon" href="https://cut.lk/assets/img/fav/safari-pinned-tab.svg?v=2a" color="#533A71">
+    <link rel="shortcut icon" href="https://cut.lk/assets/img/fav/favicon.ico?v=2a">
     <meta name="theme-color" content="#533A71">
     <meta property="og:type" content="website">
     <meta property="og:title" content="URL Shortener">
