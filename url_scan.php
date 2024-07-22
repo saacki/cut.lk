@@ -27,7 +27,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 </head>
 <body>
     <h1>Scan URL for Malware/Phishing</h1>
-    <form method="POST" action="scanurl.php">
+    <form method="POST" action="url_scan.php">
         <label for="url">Enter URL:</label>
         <input type="text" id="url" name="url" required>
         <button type="submit">Scan URL</button>
