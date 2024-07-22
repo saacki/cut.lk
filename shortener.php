@@ -47,10 +47,34 @@ function generateUniqueShortCode($length = 6) {
     return $short_code;
 }
 
+function check_url_with_virustotal($url) {
+    $apiKey = 'API_KEY';
+    $apiUrl = 'https://www.virustotal.com/vtapi/v2/url/report';
+    $params = [
+        'apikey' => $apiKey,
+        'resource' => $url
+    ];
+
+    $ch = curl_init();
+    curl_setopt($ch, CURLOPT_URL, $apiUrl);
+    curl_setopt($ch, CURLOPT_POST, 1);
+    curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query($params));
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    $response = curl_exec($ch);
+    curl_close($ch);
+
+    $result = json_decode($response, true);
+    return isset($result['positives']) && $result['positives'] > 0;
+}
+
 function shortenUrl($original_url) {
     $normalized_url = normalizeUrl($original_url);
     if (!isValidUrl($original_url)) {
         error_log("Invalid URL: $original_url");
+        return false;
+    }
+    if (check_url_with_virustotal($original_url)) {
+        error_log("Malicious URL detected: $original_url");
         return false;
     }
     global $conn;
