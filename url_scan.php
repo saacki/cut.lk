@@ -38,8 +38,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         
         <label for="version">Select VirusTotal API Version:</label>
         <select id="version" name="version">
-            <option value="v2">VirusTotal v2</option>
-            <option value="v3">VirusTotal v3</option>
+            <option value="v2">v2</option>
+            <option value="v3">v3</option>
         </select>
         
         <button type="submit">Scan URL</button>
