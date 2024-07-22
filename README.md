@@ -11,6 +11,7 @@ The primary goal of this project is to provide a robust and scalable solution fo
 - **URL Shortening**: Convert long URLs into short, easy-to-share links.
 - **Redirection**: Automatically redirect users from the shortened URL to the original URL.
 - **Cloudflare Integration**: Utilize Cloudflare's security features for enhanced protection.
+- **VirusTotal Integration**: Utilize VirusTotal's security features for enhanced protection.
 
 ### Technology Stack
 
