@@ -1,4 +1,4 @@
-## cut.lk
+## URL Shortener (cut.lk)
 
 Welcome to the URL Shortener project! This repository contains the code for a URL shortening service that allows users to create shortened URLs that redirect to longer, original URLs. This service is designed to be simple, efficient, and secure, ensuring that your long URLs are easily shareable and manageable.
 
