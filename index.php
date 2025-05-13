@@ -60,7 +60,7 @@ if ($request_uri && $_SERVER['REQUEST_METHOD'] != 'POST') {
     <meta property="og:description" content="URL Shortener">
     <meta property="og:url" content="https://cut.lk">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cut.lk/assets/css/style.css?v=0.1.0a">
+    <link rel="stylesheet" href="https://cut.lk/assets/css/style.css?v=0.1.0d">
 </head>
 <body>
     <a href="https://cut.lk" id="imgLK"><img src="https://cut.lk/assets/img/scissor.png?v=1b"><strong> dot L K</strong></a>
@@ -78,7 +78,7 @@ if ($request_uri && $_SERVER['REQUEST_METHOD'] != 'POST') {
     </div>
     <p id="links"><a href="#" style="color: #fff;text-decoration: none;" >API</a>&nbsp&nbsp |&nbsp&nbsp <a href="https://github.com/saacki/cut.lk" style="color: #fff;text-decoration: none;" >GitHub</a>&nbsp&nbsp |&nbsp&nbsp <a href="https://cut.lk/privacy/" style="color: #fff;text-decoration: none;" >Privacy Policy</a></p>
     <div id="footer">
-        <p>made with <i class="fas fa-heart" style="color: #FF007F;font-size: 24px;"></i> by <a href="https://sachi.lk" style="color: #8E94F2;text-decoration: none;font-weight: bold;">sachi</a></p>
+        <p>made with <i class="fas fa-heart" style="color: #FF007F;font-size: 1.3em;"></i> by <a href="https://sachi.lk" style="color: #8E94F2;text-decoration: none;font-weight: 700;">sachi</a></p>
     </div>
     <script>
         document.getElementById('shorten-form').addEventListener('submit', function(e) {
