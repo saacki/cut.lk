@@ -76,7 +76,7 @@ if ($request_uri && $_SERVER['REQUEST_METHOD'] != 'POST') {
             <?php endif; ?>
         </div>
     </div>
-    <p id="links"><a href="#" style="color: #fff;text-decoration: none;" >API</a>&nbsp&nbsp |&nbsp&nbsp <a href="https://github.com/saacki/cut.lk" style="color: #fff;text-decoration: none;" >GitHub</a>&nbsp&nbsp |&nbsp&nbsp <a href="https://cut.lk/privacy/" style="color: #fff;text-decoration: none;" >Privacy Policy</a></p>
+    <p id="links"><a href="#" style="color: #fff;text-decoration: none;" >API</a>&nbsp;&nbsp; |&nbsp;&nbsp; <a href="https://github.com/saacki/cut.lk" style="color: #fff;text-decoration: none;" >GitHub</a>&nbsp;&nbsp; |&nbsp;&nbsp; <a href="https://cut.lk/privacy/" style="color: #fff;text-decoration: none;" >Privacy Policy</a></p>
     <div id="footer">
         <p>made with <i class="fas fa-heart" style="color: #FF007F;font-size: 1.3em;"></i> by <a href="https://sachi.lk" style="color: #8E94F2;text-decoration: none;font-weight: 700;">sachi</a></p>
     </div>
